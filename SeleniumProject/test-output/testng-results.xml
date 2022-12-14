@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="19" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T20:10:24 IST" name="Suite" finished-at="2022-11-21T20:10:24 IST" duration-ms="177">
+    <groups>
+      <group name="regression">
+        <method signature="FBApp.notification()[pri:0, instance:com.excelr.testing.FBApp@34123d65]" name="notification" class="com.excelr.testing.FBApp"/>
+        <method signature="FBApp.sendRequest()[pri:0, instance:com.excelr.testing.FBApp@34123d65]" name="sendRequest" class="com.excelr.testing.FBApp"/>
+        <method signature="FBWeb.notification()[pri:0, instance:com.excelr.testing.FBWeb@59474f18]" name="notification" class="com.excelr.testing.FBWeb"/>
+        <method signature="FBWeb.sendRequest()[pri:0, instance:com.excelr.testing.FBWeb@59474f18]" name="sendRequest" class="com.excelr.testing.FBWeb"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FBApp.Open()[pri:0, instance:com.excelr.testing.FBApp@34123d65]" name="Open" class="com.excelr.testing.FBApp"/>
+        <method signature="FBWeb.Open()[pri:0, instance:com.excelr.testing.FBWeb@59474f18]" name="Open" class="com.excelr.testing.FBWeb"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-21T20:10:24 IST" name="Test" finished-at="2022-11-21T20:10:24 IST" duration-ms="8">
+    </test> <!-- Test -->
+    <test started-at="2022-11-21T20:10:24 IST" name="Test2" finished-at="2022-11-21T20:10:24 IST" duration-ms="106">
+      <class name="com.excelr.testing.TestNGDemo">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeSuit" finished-at="2022-11-21T20:10:24 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="beforeWebTest()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeWebTest" finished-at="2022-11-21T20:10:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWebTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeClass" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ABCTest()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="ABCTest" finished-at="2022-11-21T20:10:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABCTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ValidateLogin()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="ValidateLogin" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateLogo()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="ValidateLogo" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidateTitle()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="ValidateTitle" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="beforeMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ZebraTest()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="ZebraTest" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZebraTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterMethod" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterClass" finished-at="2022-11-21T20:10:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterWebTest()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="afterWebTest" finished-at="2022-11-21T20:10:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterWebTest -->
+        <test-method is-config="true" signature="SendReport()[pri:0, instance:com.excelr.testing.TestNGDemo@4802796d]" started-at="2022-11-21T20:10:24 IST" name="SendReport" finished-at="2022-11-21T20:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendReport -->
+      </class> <!-- com.excelr.testing.TestNGDemo -->
+      <class name="com.excelr.testing.FBWeb">
+        <test-method signature="Open()[pri:0, instance:com.excelr.testing.FBWeb@59474f18]" started-at="2022-11-21T20:10:24 IST" name="Open" finished-at="2022-11-21T20:10:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method signature="notification()[pri:0, instance:com.excelr.testing.FBWeb@59474f18]" started-at="2022-11-21T20:10:24 IST" name="notification" finished-at="2022-11-21T20:10:24 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification -->
+        <test-method signature="sendRequest()[pri:0, instance:com.excelr.testing.FBWeb@59474f18]" started-at="2022-11-21T20:10:24 IST" name="sendRequest" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequest -->
+      </class> <!-- com.excelr.testing.FBWeb -->
+      <class name="com.excelr.testing.FBApp">
+        <test-method signature="Open()[pri:0, instance:com.excelr.testing.FBApp@34123d65]" started-at="2022-11-21T20:10:24 IST" name="Open" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method signature="notification()[pri:0, instance:com.excelr.testing.FBApp@34123d65]" started-at="2022-11-21T20:10:24 IST" name="notification" finished-at="2022-11-21T20:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification -->
+        <test-method signature="sendRequest()[pri:0, instance:com.excelr.testing.FBApp@34123d65]" started-at="2022-11-21T20:10:24 IST" name="sendRequest" finished-at="2022-11-21T20:10:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendRequest -->
+      </class> <!-- com.excelr.testing.FBApp -->
+      <class name="com.excelr.testing.DependsOnDemo">
+        <test-method signature="validateLogin()[pri:0, instance:com.excelr.testing.DependsOnDemo@65fb9ffc]" started-at="2022-11-21T20:10:24 IST" name="validateLogin" finished-at="2022-11-21T20:10:24 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method signature="applyLeave()[pri:0, instance:com.excelr.testing.DependsOnDemo@65fb9ffc]" started-at="2022-11-21T20:10:24 IST" name="applyLeave" finished-at="2022-11-21T20:10:24 IST" depends-on-methods="com.excelr.testing.DependsOnDemo.validateLogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLeave -->
+        <test-method signature="deleteLeave()[pri:0, instance:com.excelr.testing.DependsOnDemo@65fb9ffc]" started-at="2022-11-21T20:10:24 IST" name="deleteLeave" finished-at="2022-11-21T20:10:24 IST" depends-on-methods="com.excelr.testing.DependsOnDemo.applyLeave, com.excelr.testing.DependsOnDemo.validateLogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeave -->
+        <test-method signature="editLeave()[pri:0, instance:com.excelr.testing.DependsOnDemo@65fb9ffc]" started-at="2022-11-21T20:10:24 IST" name="editLeave" finished-at="2022-11-21T20:10:24 IST" depends-on-methods="com.excelr.testing.DependsOnDemo.applyLeave, com.excelr.testing.DependsOnDemo.validateLogin" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLeave -->
+      </class> <!-- com.excelr.testing.DependsOnDemo -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
