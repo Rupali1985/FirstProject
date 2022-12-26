@@ -1,23 +1,16 @@
 package com.excelr.testing;
 
-import java.io.IOException;
-
-
-
-
-import org.openqa.selenium.By;
+import org.openqa.selenium.By
+;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import com.beust.jcommander.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DataProviderDemo {
-	@Test(dataProvider = "getLoginData")
-	public void validateLogin(String uname, String pwd) 
+	@Test(dataProvider = "loginData",dataProviderClass=Excel_Reader.class)
+	public void validateLogin(String uname, String pwd) throws InterruptedException 
 	{
 		
 		WebDriverManager.chromedriver().setup();
@@ -25,28 +18,11 @@ public class DataProviderDemo {
 		driver.get("https://www.facebook.com");
 		driver.findElement(By.id("email")).sendKeys(uname);
 		driver.findElement(By.id("pass")).sendKeys(pwd);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 	
-    @DataProvider
-    public Object[][] getLoginData()
-    {
-    	Object[][] data=new Object[3][2];
-    	data[0][0]="admin";
-    	data[0][1]="admin123";
-    	data[1][0]="hr";
-    	data[1][1]="hr123";
-    	data[2][0]="finance";
-    	data[2][1]="finance123";
-    	return data;
-    }
     
-    @DataProvider(name="GetLoginData")
-    public Object[][] getLoginDataFromExcel()throws IOException
-    {
-    	String filePath="./src/test/java/com/excelr/testing/Book1.xlsx";
-    	String sheetName="FBLogin";
-    	Excel_Reader obj=new Excel_Reader(filePath,sheetName);
-    	return obj.getData();
-    }
+    
+    
 }
